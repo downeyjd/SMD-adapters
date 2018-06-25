@@ -1,0 +1,972 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom
+LIBS:SMD adapters-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L IS31FL3731 U1
+U 1 1 5A8CC2F5
+P 1750 1500
+F 0 "U1" H 1100 2550 50  0000 C CNN
+F 1 "IS31FL3731" H 1450 2550 50  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-28-1EP_4x4mm_Pitch0.4mm" H 1750 1400 50  0001 C CNN
+F 3 "" H 1750 1400 50  0001 C CNN
+	1    1750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x14 J2
+U 1 1 5A8CC383
+P 5350 -950
+F 0 "J2" H 5350 -250 50  0000 C CNN
+F 1 "Conn_01x14" H 5350 -1750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x14_Pitch2.54mm" H 5350 -950 50  0001 C CNN
+F 3 "" H 5350 -950 50  0001 C CNN
+	1    5350 -950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x14 J1
+U 1 1 5A8CC3F6
+P 2850 3800
+F 0 "J1" H 2850 4500 50  0000 C CNN
+F 1 "Conn_01x14" H 2850 3000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x14_Pitch2.54mm" H 2850 3800 50  0001 C CNN
+F 3 "" H 2850 3800 50  0001 C CNN
+	1    2850 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L SI3805 U2
+U 1 1 5A8CD44B
+P 7050 800
+F 0 "U2" H 7300 900 50  0000 R CNN
+F 1 "SI3805" H 7450 800 50  0000 R CNN
+F 2 "Housings_SSOP:TSOP-6_1.65x3.05mm_Pitch0.95mm" H 7050 500 50  0001 C CNN
+F 3 "" H 7050 500 50  0001 C CNN
+	1    7050 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J5
+U 1 1 5A8CD4D2
+P 8150 1000
+F 0 "J5" H 8150 1200 50  0000 C CNN
+F 1 "Conn_01x03" H 8150 800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8150 1000 50  0001 C CNN
+F 3 "" H 8150 1000 50  0001 C CNN
+	1    8150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J3
+U 1 1 5A8CD56B
+P 6550 1000
+F 0 "J3" H 6550 1200 50  0000 C CNN
+F 1 "Conn_01x03" H 6550 800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6550 1000 50  0001 C CNN
+F 3 "" H 6550 1000 50  0001 C CNN
+	1    6550 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ESP-12 X1
+U 1 1 5A8CE381
+P 8400 3100
+F 0 "X1" H 8400 3100 45  0001 C CNN
+F 1 "ESP-12" H 8400 3100 45  0001 C CNN
+F 2 "RF_Modules:ESP-12E" H 8400 3100 60  0001 C CNN
+F 3 "" H 8400 3100 60  0001 C CNN
+	1    8400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x08 J6
+U 1 1 5A8CE3B3
+P 9700 3200
+F 0 "J6" H 9700 3600 50  0000 C CNN
+F 1 "Conn_01x08" H 9700 2700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9700 3200 50  0001 C CNN
+F 3 "" H 9700 3200 50  0001 C CNN
+	1    9700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x08 J4
+U 1 1 5A8CE403
+P 7050 3300
+F 0 "J4" H 7050 3700 50  0000 C CNN
+F 1 "Conn_01x08" H 7050 2800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 7050 3300 50  0001 C CNN
+F 3 "" H 7050 3300 50  0001 C CNN
+	1    7050 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SI3805 U5
+U 1 1 5A8CF122
+P 9400 750
+F 0 "U5" H 9650 850 50  0000 R CNN
+F 1 "SI3805" H 9800 750 50  0000 R CNN
+F 2 "Housings_SSOP:TSOP-6_1.65x3.05mm_Pitch0.95mm" H 9400 450 50  0001 C CNN
+F 3 "" H 9400 450 50  0001 C CNN
+	1    9400 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J15
+U 1 1 5A8CF128
+P 10500 950
+F 0 "J15" H 10500 1150 50  0000 C CNN
+F 1 "Conn_01x03" H 10500 750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10500 950 50  0001 C CNN
+F 3 "" H 10500 950 50  0001 C CNN
+	1    10500 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J12
+U 1 1 5A8CF12E
+P 8900 950
+F 0 "J12" H 8900 1150 50  0000 C CNN
+F 1 "Conn_01x03" H 8900 750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8900 950 50  0001 C CNN
+F 3 "" H 8900 950 50  0001 C CNN
+	1    8900 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SI3805 U6
+U 1 1 5A8CF1A0
+P 9450 1650
+F 0 "U6" H 9700 1750 50  0000 R CNN
+F 1 "SI3805" H 9850 1650 50  0000 R CNN
+F 2 "Housings_SSOP:TSOP-6_1.65x3.05mm_Pitch0.95mm" H 9450 1350 50  0001 C CNN
+F 3 "" H 9450 1350 50  0001 C CNN
+	1    9450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J16
+U 1 1 5A8CF1A6
+P 10550 1850
+F 0 "J16" H 10550 2050 50  0000 C CNN
+F 1 "Conn_01x03" H 10550 1650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10550 1850 50  0001 C CNN
+F 3 "" H 10550 1850 50  0001 C CNN
+	1    10550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J13
+U 1 1 5A8CF1AC
+P 8950 1850
+F 0 "J13" H 8950 2050 50  0000 C CNN
+F 1 "Conn_01x03" H 8950 1650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8950 1850 50  0001 C CNN
+F 3 "" H 8950 1850 50  0001 C CNN
+	1    8950 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SI3805 U4
+U 1 1 5A8CF28A
+P 7100 1650
+F 0 "U4" H 7350 1750 50  0000 R CNN
+F 1 "SI3805" H 7500 1650 50  0000 R CNN
+F 2 "Housings_SSOP:TSOP-6_1.65x3.05mm_Pitch0.95mm" H 7100 1350 50  0001 C CNN
+F 3 "" H 7100 1350 50  0001 C CNN
+	1    7100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J11
+U 1 1 5A8CF290
+P 8200 1850
+F 0 "J11" H 8200 2050 50  0000 C CNN
+F 1 "Conn_01x03" H 8200 1650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8200 1850 50  0001 C CNN
+F 3 "" H 8200 1850 50  0001 C CNN
+	1    8200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J9
+U 1 1 5A8CF296
+P 6600 1850
+F 0 "J9" H 6600 2050 50  0000 C CNN
+F 1 "Conn_01x03" H 6600 1650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6600 1850 50  0001 C CNN
+F 3 "" H 6600 1850 50  0001 C CNN
+	1    6600 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ESP-12 X2
+U 1 1 5A8CF441
+P 8500 4900
+F 0 "X2" H 8500 4900 45  0001 C CNN
+F 1 "ESP-12" H 8500 4900 45  0001 C CNN
+F 2 "RF_Modules:ESP-12E" H 8500 4900 60  0001 C CNN
+F 3 "" H 8500 4900 60  0001 C CNN
+	1    8500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x08 J14
+U 1 1 5A8CF447
+P 9800 5000
+F 0 "J14" H 9800 5400 50  0000 C CNN
+F 1 "Conn_01x08" H 9800 4500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9800 5000 50  0001 C CNN
+F 3 "" H 9800 5000 50  0001 C CNN
+	1    9800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x08 J10
+U 1 1 5A8CF44D
+P 7150 5100
+F 0 "J10" H 7150 5500 50  0000 C CNN
+F 1 "Conn_01x08" H 7150 4600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 7150 5100 50  0001 C CNN
+F 3 "" H 7150 5100 50  0001 C CNN
+	1    7150 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L IS31FL3731 U3
+U 1 1 5A8CF6FE
+P 2100 7400
+F 0 "U3" H 1450 8450 50  0000 C CNN
+F 1 "IS31FL3731" H 1800 8450 50  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-28-1EP_4x4mm_Pitch0.4mm" H 2100 7300 50  0001 C CNN
+F 3 "" H 2100 7300 50  0001 C CNN
+	1    2100 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x14 J8
+U 1 1 5A8CF704
+P 5700 4950
+F 0 "J8" H 5700 5650 50  0000 C CNN
+F 1 "Conn_01x14" H 5700 4150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x14_Pitch2.54mm" H 5700 4950 50  0001 C CNN
+F 3 "" H 5700 4950 50  0001 C CNN
+	1    5700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x14 J7
+U 1 1 5A8CF70A
+P 3200 9700
+F 0 "J7" H 3200 10400 50  0000 C CNN
+F 1 "Conn_01x14" H 3200 8900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x14_Pitch2.54mm" H 3200 9700 50  0001 C CNN
+F 3 "" H 3200 9700 50  0001 C CNN
+	1    3200 9700
+	0    1    1    0   
+$EndComp
+$Comp
+L ATTINY85-20SU U7
+U 1 1 5A8D1595
+P 8450 6100
+F 0 "U7" H 7300 6500 50  0000 C CNN
+F 1 "ATTINY85-20SU" H 9450 5700 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-8_Handsoldering" H 9400 6100 50  0001 C CIN
+F 3 "" H 8450 6100 50  0001 C CNN
+	1    8450 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1450 4550 1450
+Wire Wire Line
+	4550 1450 4550 -1550
+Wire Wire Line
+	4550 -1550 5150 -1550
+Wire Wire Line
+	850  700  500  700 
+Wire Wire Line
+	500  700  500  -1450
+Wire Wire Line
+	500  -1450 5150 -1450
+Wire Wire Line
+	5150 -1350 450  -1350
+Wire Wire Line
+	450  -1350 450  1350
+Wire Wire Line
+	450  1350 850  1350
+Wire Wire Line
+	5150 -1250 400  -1250
+Wire Wire Line
+	400  -1250 400  1200
+Wire Wire Line
+	400  1200 850  1200
+Wire Wire Line
+	5150 -1150 350  -1150
+Wire Wire Line
+	350  -1150 350  2300
+Wire Wire Line
+	350  2300 850  2300
+Wire Wire Line
+	5150 -1050 300  -1050
+Wire Wire Line
+	300  -1050 300  2000
+Wire Wire Line
+	300  2000 850  2000
+Wire Wire Line
+	5150 -950 5050 -950
+Wire Wire Line
+	5050 -950 5050 1550
+Wire Wire Line
+	5050 1550 2650 1550
+Wire Wire Line
+	5150 -850 5000 -850
+Wire Wire Line
+	5000 -850 5000 1650
+Wire Wire Line
+	5000 1650 2650 1650
+Wire Wire Line
+	5150 -750 4950 -750
+Wire Wire Line
+	4950 -750 4950 1750
+Wire Wire Line
+	4950 1750 2650 1750
+Wire Wire Line
+	5150 -650 4900 -650
+Wire Wire Line
+	4900 -650 4900 1850
+Wire Wire Line
+	4900 1850 2650 1850
+Wire Wire Line
+	5150 -550 4850 -550
+Wire Wire Line
+	4850 -550 4850 1950
+Wire Wire Line
+	4850 1950 2650 1950
+Wire Wire Line
+	5150 -450 4800 -450
+Wire Wire Line
+	4800 -450 4800 2050
+Wire Wire Line
+	4800 2050 2650 2050
+Wire Wire Line
+	5150 -350 4750 -350
+Wire Wire Line
+	4750 -350 4750 2150
+Wire Wire Line
+	4750 2150 2650 2150
+Wire Wire Line
+	5150 -250 4700 -250
+Wire Wire Line
+	4700 -250 4700 2250
+Wire Wire Line
+	4700 2250 2650 2250
+Wire Wire Line
+	2650 2350 3450 2350
+Wire Wire Line
+	3450 2350 3450 3600
+Wire Wire Line
+	850  2150 750  2150
+Wire Wire Line
+	750  2150 750  2550
+Wire Wire Line
+	750  2550 3350 2550
+Wire Wire Line
+	3350 2550 3350 3600
+Wire Wire Line
+	850  1600 700  1600
+Wire Wire Line
+	700  1600 700  2600
+Wire Wire Line
+	700  2600 3250 2600
+Wire Wire Line
+	3250 2600 3250 3600
+Wire Wire Line
+	850  1700 650  1700
+Wire Wire Line
+	650  1700 650  2650
+Wire Wire Line
+	650  2650 3150 2650
+Wire Wire Line
+	3150 2650 3150 3600
+Wire Wire Line
+	850  900  600  900 
+Wire Wire Line
+	600  900  600  2700
+Wire Wire Line
+	600  2700 3050 2700
+Wire Wire Line
+	3050 2700 3050 3600
+Wire Wire Line
+	2950 3600 2950 2750
+Wire Wire Line
+	2950 2750 550  2750
+Wire Wire Line
+	550  2750 550  1050
+Wire Wire Line
+	550  1050 850  1050
+Wire Wire Line
+	2650 650  4500 650 
+Wire Wire Line
+	4500 650  4500 2800
+Wire Wire Line
+	4500 2800 2850 2800
+Wire Wire Line
+	2850 2800 2850 3600
+Wire Wire Line
+	2650 750  4450 750 
+Wire Wire Line
+	4450 750  4450 2850
+Wire Wire Line
+	4450 2850 2750 2850
+Wire Wire Line
+	2750 2850 2750 3600
+Wire Wire Line
+	2650 850  4400 850 
+Wire Wire Line
+	4400 850  4400 2900
+Wire Wire Line
+	4400 2900 2650 2900
+Wire Wire Line
+	2650 2900 2650 3600
+Wire Wire Line
+	2650 950  4350 950 
+Wire Wire Line
+	4350 950  4350 2950
+Wire Wire Line
+	4350 2950 2550 2950
+Wire Wire Line
+	2550 2950 2550 3600
+Wire Wire Line
+	2650 1050 4300 1050
+Wire Wire Line
+	4300 1050 4300 3000
+Wire Wire Line
+	4300 3000 2450 3000
+Wire Wire Line
+	2450 3000 2450 3600
+Wire Wire Line
+	2650 1150 4250 1150
+Wire Wire Line
+	4250 1150 4250 3050
+Wire Wire Line
+	4250 3050 2350 3050
+Wire Wire Line
+	2350 3050 2350 3600
+Wire Wire Line
+	2650 1250 4200 1250
+Wire Wire Line
+	4200 1250 4200 3100
+Wire Wire Line
+	4200 3100 2250 3100
+Wire Wire Line
+	2250 3100 2250 3600
+Wire Wire Line
+	2650 1350 4150 1350
+Wire Wire Line
+	4150 1350 4150 3150
+Wire Wire Line
+	4150 3150 2150 3150
+Wire Wire Line
+	2150 3150 2150 3600
+Wire Wire Line
+	6750 900  7000 900 
+Wire Wire Line
+	6750 1000 7000 1000
+Wire Wire Line
+	6750 1100 7000 1100
+Wire Wire Line
+	7650 900  7950 900 
+Wire Wire Line
+	7950 1100 7650 1100
+Wire Wire Line
+	7250 2900 7700 2900
+Wire Wire Line
+	7700 3000 7250 3000
+Wire Wire Line
+	7250 3100 7700 3100
+Wire Wire Line
+	7700 3200 7250 3200
+Wire Wire Line
+	7250 3300 7700 3300
+Wire Wire Line
+	7700 3400 7250 3400
+Wire Wire Line
+	7250 3500 7700 3500
+Wire Wire Line
+	7700 3600 7250 3600
+Wire Wire Line
+	9100 3600 9500 3600
+Wire Wire Line
+	9500 3500 9100 3500
+Wire Wire Line
+	9100 3400 9500 3400
+Wire Wire Line
+	9500 3300 9100 3300
+Wire Wire Line
+	9100 3200 9500 3200
+Wire Wire Line
+	9500 3100 9100 3100
+Wire Wire Line
+	9100 3000 9500 3000
+Wire Wire Line
+	9500 2900 9100 2900
+Wire Wire Line
+	9100 850  9350 850 
+Wire Wire Line
+	9100 950  9350 950 
+Wire Wire Line
+	9100 1050 9350 1050
+Wire Wire Line
+	10000 850  10300 850 
+Wire Wire Line
+	10300 1050 10000 1050
+Wire Wire Line
+	9150 1750 9400 1750
+Wire Wire Line
+	9150 1850 9400 1850
+Wire Wire Line
+	9150 1950 9400 1950
+Wire Wire Line
+	10050 1750 10350 1750
+Wire Wire Line
+	10350 1950 10050 1950
+Wire Wire Line
+	6800 1750 7050 1750
+Wire Wire Line
+	6800 1850 7050 1850
+Wire Wire Line
+	6800 1950 7050 1950
+Wire Wire Line
+	7700 1750 8000 1750
+Wire Wire Line
+	8000 1950 7700 1950
+Wire Wire Line
+	7350 4700 7800 4700
+Wire Wire Line
+	7800 4800 7350 4800
+Wire Wire Line
+	7350 4900 7800 4900
+Wire Wire Line
+	7800 5000 7350 5000
+Wire Wire Line
+	7350 5100 7800 5100
+Wire Wire Line
+	7800 5200 7350 5200
+Wire Wire Line
+	7350 5300 7800 5300
+Wire Wire Line
+	7800 5400 7350 5400
+Wire Wire Line
+	9200 5400 9600 5400
+Wire Wire Line
+	9600 5300 9200 5300
+Wire Wire Line
+	9200 5200 9600 5200
+Wire Wire Line
+	9600 5100 9200 5100
+Wire Wire Line
+	9200 5000 9600 5000
+Wire Wire Line
+	9600 4900 9200 4900
+Wire Wire Line
+	9200 4800 9600 4800
+Wire Wire Line
+	9600 4700 9200 4700
+Wire Wire Line
+	3000 7350 4900 7350
+Wire Wire Line
+	4900 7350 4900 4350
+Wire Wire Line
+	4900 4350 5500 4350
+Wire Wire Line
+	1200 6600 850  6600
+Wire Wire Line
+	850  6600 850  4450
+Wire Wire Line
+	850  4450 5500 4450
+Wire Wire Line
+	5500 4550 800  4550
+Wire Wire Line
+	800  4550 800  7250
+Wire Wire Line
+	800  7250 1200 7250
+Wire Wire Line
+	5500 4650 750  4650
+Wire Wire Line
+	750  4650 750  7100
+Wire Wire Line
+	750  7100 1200 7100
+Wire Wire Line
+	5500 4750 700  4750
+Wire Wire Line
+	700  4750 700  8200
+Wire Wire Line
+	700  8200 1200 8200
+Wire Wire Line
+	5500 4850 650  4850
+Wire Wire Line
+	650  4850 650  7900
+Wire Wire Line
+	650  7900 1200 7900
+Wire Wire Line
+	5500 4950 5400 4950
+Wire Wire Line
+	5400 4950 5400 7450
+Wire Wire Line
+	5400 7450 3000 7450
+Wire Wire Line
+	5500 5050 5350 5050
+Wire Wire Line
+	5350 5050 5350 7550
+Wire Wire Line
+	5350 7550 3000 7550
+Wire Wire Line
+	5500 5150 5300 5150
+Wire Wire Line
+	5300 5150 5300 7650
+Wire Wire Line
+	5300 7650 3000 7650
+Wire Wire Line
+	5500 5250 5250 5250
+Wire Wire Line
+	5250 5250 5250 7750
+Wire Wire Line
+	5250 7750 3000 7750
+Wire Wire Line
+	5500 5350 5200 5350
+Wire Wire Line
+	5200 5350 5200 7850
+Wire Wire Line
+	5200 7850 3000 7850
+Wire Wire Line
+	5500 5450 5150 5450
+Wire Wire Line
+	5150 5450 5150 7950
+Wire Wire Line
+	5150 7950 3000 7950
+Wire Wire Line
+	5500 5550 5100 5550
+Wire Wire Line
+	5100 5550 5100 8050
+Wire Wire Line
+	5100 8050 3000 8050
+Wire Wire Line
+	5500 5650 5050 5650
+Wire Wire Line
+	5050 5650 5050 8150
+Wire Wire Line
+	5050 8150 3000 8150
+Wire Wire Line
+	3000 8250 3800 8250
+Wire Wire Line
+	3800 8250 3800 9500
+Wire Wire Line
+	1200 8050 1100 8050
+Wire Wire Line
+	1100 8050 1100 8450
+Wire Wire Line
+	1100 8450 3700 8450
+Wire Wire Line
+	3700 8450 3700 9500
+Wire Wire Line
+	1200 7500 1050 7500
+Wire Wire Line
+	1050 7500 1050 8500
+Wire Wire Line
+	1050 8500 3600 8500
+Wire Wire Line
+	3600 8500 3600 9500
+Wire Wire Line
+	1200 7600 1000 7600
+Wire Wire Line
+	1000 7600 1000 8550
+Wire Wire Line
+	1000 8550 3500 8550
+Wire Wire Line
+	3500 8550 3500 9500
+Wire Wire Line
+	1200 6800 950  6800
+Wire Wire Line
+	950  6800 950  8600
+Wire Wire Line
+	950  8600 3400 8600
+Wire Wire Line
+	3400 8600 3400 9500
+Wire Wire Line
+	3300 9500 3300 8650
+Wire Wire Line
+	3300 8650 900  8650
+Wire Wire Line
+	900  8650 900  6950
+Wire Wire Line
+	900  6950 1200 6950
+Wire Wire Line
+	3000 6550 4850 6550
+Wire Wire Line
+	4850 6550 4850 8700
+Wire Wire Line
+	4850 8700 3200 8700
+Wire Wire Line
+	3200 8700 3200 9500
+Wire Wire Line
+	3000 6650 4800 6650
+Wire Wire Line
+	4800 6650 4800 8750
+Wire Wire Line
+	4800 8750 3100 8750
+Wire Wire Line
+	3100 8750 3100 9500
+Wire Wire Line
+	3000 6750 4750 6750
+Wire Wire Line
+	4750 6750 4750 8800
+Wire Wire Line
+	4750 8800 3000 8800
+Wire Wire Line
+	3000 8800 3000 9500
+Wire Wire Line
+	3000 6850 4700 6850
+Wire Wire Line
+	4700 6850 4700 8850
+Wire Wire Line
+	4700 8850 2900 8850
+Wire Wire Line
+	2900 8850 2900 9500
+Wire Wire Line
+	3000 6950 4650 6950
+Wire Wire Line
+	4650 6950 4650 8900
+Wire Wire Line
+	4650 8900 2800 8900
+Wire Wire Line
+	2800 8900 2800 9500
+Wire Wire Line
+	3000 7050 4600 7050
+Wire Wire Line
+	4600 7050 4600 8950
+Wire Wire Line
+	4600 8950 2700 8950
+Wire Wire Line
+	2700 8950 2700 9500
+Wire Wire Line
+	3000 7150 4550 7150
+Wire Wire Line
+	4550 7150 4550 9000
+Wire Wire Line
+	4550 9000 2600 9000
+Wire Wire Line
+	2600 9000 2600 9500
+Wire Wire Line
+	3000 7250 4500 7250
+Wire Wire Line
+	4500 7250 4500 9050
+Wire Wire Line
+	4500 9050 2500 9050
+Wire Wire Line
+	2500 9050 2500 9500
+Wire Wire Line
+	7950 1000 7650 1000
+Wire Wire Line
+	7700 1850 8000 1850
+Wire Wire Line
+	10050 1850 10350 1850
+Wire Wire Line
+	10000 950  10300 950 
+$Comp
+L Conn_01x04 J17
+U 1 1 5A8D21B0
+P 6300 5950
+F 0 "J17" H 6300 6150 50  0000 C CNN
+F 1 "Conn_01x04" H 6300 5650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 6300 5950 50  0001 C CNN
+F 3 "" H 6300 5950 50  0001 C CNN
+	1    6300 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x04 J18
+U 1 1 5A8D22E3
+P 6300 6600
+F 0 "J18" H 6300 6800 50  0000 C CNN
+F 1 "Conn_01x04" H 6300 6300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 6300 6600 50  0001 C CNN
+F 3 "" H 6300 6600 50  0001 C CNN
+	1    6300 6600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7100 6350 6900 6350
+Wire Wire Line
+	6900 6350 6900 6700
+Wire Wire Line
+	6900 6700 6500 6700
+Wire Wire Line
+	6500 6600 6850 6600
+Wire Wire Line
+	6850 6600 6850 6150
+Wire Wire Line
+	6850 6150 7100 6150
+Wire Wire Line
+	7100 6250 6800 6250
+Wire Wire Line
+	6800 6250 6800 6500
+Wire Wire Line
+	6800 6500 6500 6500
+Wire Wire Line
+	6500 6400 9800 6400
+Wire Wire Line
+	9800 6400 9800 6350
+Wire Wire Line
+	9800 5850 9800 5650
+Wire Wire Line
+	9800 5650 6650 5650
+Wire Wire Line
+	6650 5650 6650 5750
+Wire Wire Line
+	6650 5750 6500 5750
+Wire Wire Line
+	6500 5850 6850 5850
+Wire Wire Line
+	6850 5850 6850 6050
+Wire Wire Line
+	6850 6050 7100 6050
+Wire Wire Line
+	7100 5950 6500 5950
+Wire Wire Line
+	6500 6050 6800 6050
+Wire Wire Line
+	6800 6050 6800 5900
+Wire Wire Line
+	6800 5900 7000 5900
+Wire Wire Line
+	7000 5900 7000 5850
+Wire Wire Line
+	7000 5850 7100 5850
+$Comp
+L ATTINY85-20SU U8
+U 1 1 5A8D3DB9
+P 12600 6200
+F 0 "U8" H 11450 6600 50  0000 C CNN
+F 1 "ATTINY85-20SU" H 13600 5800 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-8_Handsoldering" H 13550 6200 50  0001 C CIN
+F 3 "" H 12600 6200 50  0001 C CNN
+	1    12600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J19
+U 1 1 5A8D3DBF
+P 10450 6050
+F 0 "J19" H 10450 6250 50  0000 C CNN
+F 1 "Conn_01x04" H 10450 5750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 10450 6050 50  0001 C CNN
+F 3 "" H 10450 6050 50  0001 C CNN
+	1    10450 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x04 J20
+U 1 1 5A8D3DC5
+P 10450 6700
+F 0 "J20" H 10450 6900 50  0000 C CNN
+F 1 "Conn_01x04" H 10450 6400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 10450 6700 50  0001 C CNN
+F 3 "" H 10450 6700 50  0001 C CNN
+	1    10450 6700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11250 6450 11050 6450
+Wire Wire Line
+	11050 6450 11050 6800
+Wire Wire Line
+	11050 6800 10650 6800
+Wire Wire Line
+	10650 6700 11000 6700
+Wire Wire Line
+	11000 6700 11000 6250
+Wire Wire Line
+	11000 6250 11250 6250
+Wire Wire Line
+	11250 6350 10950 6350
+Wire Wire Line
+	10950 6350 10950 6600
+Wire Wire Line
+	10950 6600 10650 6600
+Wire Wire Line
+	10650 6500 13950 6500
+Wire Wire Line
+	13950 6500 13950 6450
+Wire Wire Line
+	13950 5950 13950 5750
+Wire Wire Line
+	13950 5750 10800 5750
+Wire Wire Line
+	10800 5750 10800 5850
+Wire Wire Line
+	10800 5850 10650 5850
+Wire Wire Line
+	10650 5950 11000 5950
+Wire Wire Line
+	11000 5950 11000 6150
+Wire Wire Line
+	11000 6150 11250 6150
+Wire Wire Line
+	11250 6050 10650 6050
+Wire Wire Line
+	10650 6150 10950 6150
+Wire Wire Line
+	10950 6150 10950 6000
+Wire Wire Line
+	10950 6000 11150 6000
+Wire Wire Line
+	11150 6000 11150 5950
+Wire Wire Line
+	11150 5950 11250 5950
+$EndSCHEMATC
